@@ -6,7 +6,9 @@ grrs is a simple command line application that searches a specified file for lin
 
 To use grrs, open a terminal window and navigate to the directory where grrs is located. Then, enter the following command:
 
-```./grrs <string> <file path>```
+```text
+./grrs <string> <file path>
+```
 
 Replace `<string>` with the string you want to search for, and `<file path>` with the path to the file you want to search.
 
@@ -14,7 +16,9 @@ Replace `<string>` with the string you want to search for, and `<file path>` wit
 
 Suppose you have a file called `my_file.txt` in your home directory, and you want to search for the string `hello`. You could do so by running the following command:
 
-```./grrs hello ~my_file.txt```
+```text
+./grrs hello ~my_file.txt
+```
 
 This would search `my_file.txt` for any lines that contain the string `hello`, and print those lines to the terminal.
 
